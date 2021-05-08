@@ -1,6 +1,3 @@
-# 42projects
+# LIBFT
 
-All the project I made durin my years in school "Ecole 42" in Paris.
-Most of it is written in the C language.
-
-The "php" folder contain exercices made during 15 days of training in HTML/CSS/PHP/JS.
+This is a library made by hand containing all function that i thought i would need for present and future projects. This library is used in all other projects.

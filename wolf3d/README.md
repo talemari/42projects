@@ -1,4 +1,4 @@
-# p_wolf3d
+# WOLF3D
 
 A very basic game using raycasting technics to generate walls.
 

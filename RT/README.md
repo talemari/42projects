@@ -1,4 +1,4 @@
-# p_RT
+# RT
 
 A raytracer project.
 

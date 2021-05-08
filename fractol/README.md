@@ -1,4 +1,4 @@
-# p_fractol
+# FRACTOL
 
 To use : ./fractol <fractal name> (for exemple : ./fractol mandelbrot)
 

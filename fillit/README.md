@@ -1,3 +1,3 @@
-# 42projects
+# FILLIT
 
 ./fillit <file name> (exemple : ./fillit exemple)

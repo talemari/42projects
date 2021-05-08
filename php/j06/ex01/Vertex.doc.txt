@@ -1,0 +1,30 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handle position (xyz) and direction (w) of vertices and can
+also optionally take a color (see class Color).
+
+to be constructed , a vertex require an x, y and z coordinates and can also take
+w and a color :
+new Vertex(array('x'=>2.5, 'y'=>-3, 'z'=>41));
+
+in addition, one can add w and color :
+new Vertex(array('x'=>2.5, 'y'=>-3, 'z'=>41, 'w'=>1, 'color'=>$color_class));
+
+w and color can be ignored but behavior is undefined if x, y or z are missing.
+
+The class contain the following methods :
+
+Vertex getVertex()
+return an array containing all vertex data in the form of
+$array['x'] = x
+$array['y'] = y
+$array['z'] = z
+$array['w'] = w
+$array['color'] = color.
+
+Vertex setVertex(array ('x'=> , 'y'=> , 'z'=> , 'w'=> 'color'=>))
+set the vertex with the data sent in the array. Any missing key will simply
+be ignored. Example :
+Vertex setVertex(array('x'=>5, 'z'=>3))
+will set x to 5 and z to 3 and leaving the rest to it's current value.
+---------------------------------------------------------------------- Vertex ->

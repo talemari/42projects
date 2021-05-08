@@ -1,0 +1,231 @@
+.register
+{
+	margin-left: 30%;
+	width: 30%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.login
+{
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	text-align: center;
+}
+
+.new
+{
+	width: 90%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: start;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	background-color: aliceblue;
+}
+
+.log_form
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border:solid;
+}
+
+.log_form div
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.new h2
+{
+	padding: 1em;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	text-align: center;
+	background-color: #111;
+}
+
+.item
+{
+	padding: 0;
+	margin: 15px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-items: flex-start;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #111;
+	opacity: 0.9;
+	transition: opacity 2s;
+}
+
+.item_form
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0.3em;
+	width: 100%;
+}
+
+.item_form div
+{
+	width: 100%;
+	margin: 0.2em;
+}
+
+.item_form input
+{
+	margin: 0.1em;
+}
+
+body
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(img/sky.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	margin-top: 100px;
+	padding: 0;
+	font-family: sans-serif;
+	color: #eee;
+}
+
+.item:hover
+{
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.change_info
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+.past_orders
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.users
+{
+	width: 90%;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	border: 1px solid grey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.categories
+{
+	width: 90%;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	border: 1px solid grey;
+}
+.products
+{
+	width: 90%;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	border: 1px solid grey;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.edit
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+.add
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+
+.filter
+{
+	background-color: #111;
+	width: 90%;
+	margin: 0;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.filter div
+{
+	margin: 0.3em;
+}
+
+.filter h3
+{
+	width: 100%;
+}
+
+.order
+{
+	margin-top: 20%;
+}
+.order_details
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.body_admin
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+@media screen and (max-width: 600px)
+{
+	body
+	{
+		margin-top: 200px;
+	}
+}

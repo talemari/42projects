@@ -1,0 +1,145 @@
+body {
+    background-color: grey;
+}
+
+.header {
+    background-color: #909090;
+    height: 12%;
+    width: 90%;
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 14px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+.header .logo {
+    height: 85%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header .loupe {
+    position: absolute;
+    right: 8%;
+    top: 40px;
+}
+
+.header .buttons {
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+.header .button_close {
+    position: absolute;
+    bottom: 10px;
+    width: 25px;
+}
+
+.header .button_reload {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 25px;
+}
+
+.content {
+    width: 80%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.content div {
+    margin : 1%;
+}
+
+.left_column {
+    background-color: #909090;
+    width: 12%;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    box-shadow: 14px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+.left_column img {
+    width: 80px;
+    margin: 10px;
+}
+
+.main_window {
+    background-color: #909090;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    box-shadow: 14px 15px 20px 0px rgba(0,0,0,0.75);
+    user-select: none;
+}
+
+.right_column {
+    background-color: #909090;
+    width: 12%;
+    border-radius: 20px;
+    height: 490px;
+    float: left;
+    text-align: center;
+    box-shadow: 14px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+.right_column img {
+    margin: 15px;
+}
+
+.brique {
+    height: 64px;
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    background-image: url(../resources/brick.jpg);
+}
+
+.actions {
+    background-color: #88FF89;
+    width: 22%;
+    position: absolute;
+    font-family: sans-serif;
+    padding: 15px;
+    left: 9%;
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 5px;
+    box-shadow: 14px 15px 20px 0px rgba(0,0,0,0.75);
+}
+
+.actions p {
+    display: inline;
+}
+
+.actions .reponse {
+    width: 70%;
+    margin: 5px;
+}
+
+.actions input {
+    height: 20px;
+}
+
+.chair {
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    left: 39%;
+    top: 39%;
+}
+
+.mac {
+    height: 150px;
+    width: 190px;
+    position: absolute;
+    left: 63%;
+    top: 39%;
+}

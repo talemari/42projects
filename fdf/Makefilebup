@@ -1,0 +1,47 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: talemari <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2016/11/05 15:17:33 by talemari          #+#    #+#              #
+#    Updated: 2017/01/17 12:55:53 by talemari         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+LIB =			Mymlx/libft/libft.a\
+				Mymlx/mymlx.a
+OBJ = $(LIB)
+NAME = fdf
+CFLAGS += -Wall -Wextra -Werror -I./Mymlx/
+DLENGHT = 100
+TTEXT = \nBEGIN TEST :\n
+all : $(NAME)
+$(NAME) : $(SRC) $(LIB)
+	cc -o fdf $(CFLAGS) $(SRC) $(LIB) -lmlx -framework OpenGL -framework Appkit
+$(LIB) :
+	cd Mymlx/ && make
+clean :
+	rm -f $(OBJ)
+	cd Mymlx && make clean
+fclean : clean
+	rm -f $(NAME)
+	cd Mymlx && make fclean
+supclean :
+	rm -f $(NAME)
+	cd Mymlx && make supclean
+test : all
+	@printf '\n%.0s' {1..3}
+	@printf '#%.0s' {1..$(DLENGHT)}
+	@printf '$(TTEXT)'
+	@printf '\n%0.s' {1..3}
+	@-./$(NAME) test_maps/42.fdf
+	@printf '\n%.0s' {1..3}
+	@printf '#%.0s' {1..$(DLENGHT)}
+	@printf '\n%0.s' {1..3}
+	@-rm $(NAME)
+re : fclean all
+supre : supclean test
+go : all clean
+.PHONY : go re fclean clean all

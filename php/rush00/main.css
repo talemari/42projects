@@ -1,0 +1,136 @@
+.register
+{
+	margin-top: 25%;
+	margin-left: 30%;
+	width: 30%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+.login
+{
+	margin-top: 25%;
+	width: 25%;
+	margin-left: 38%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+.header_login
+{
+	margin-left: 10px;
+}
+.header_register
+{
+	margin-left: 10px;
+}
+.header_home
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.header_prod
+{
+	margin-right: 67%;
+}
+.new
+{
+	margin-top: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+.item
+{
+	margin: 15px;
+	width: 16%;
+	text-align: center;
+	list-style-type: none;
+	border: 1px solid grey;
+	border-radius: 10px;
+	display: inline-block;
+ 	vertical-align: top;
+}
+.change_info
+{
+	margin-left: 15%;
+	margin-top: 10%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+.past_orders
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.users
+{
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+	border: 1px solid grey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.categories
+{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: -1px;
+	border: 1px solid grey;
+}
+.products
+{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: -1px;
+	border: 1px solid grey;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.edit
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+.add
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+.filter
+{
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+}
+.order
+{
+	margin-top: 20%;
+}
+.order_details
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20%;
+}

@@ -1,0 +1,121 @@
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    list-style: none;
+    z-index: 2000;
+}
+
+a
+{
+    color: white;
+}
+
+nav a
+{
+    padding: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.div_prod, .div_login
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div_prod li, .div_login li
+{
+    width: 100%;
+}
+
+nav .menu
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+nav ul div
+{
+    display: flex;
+    flex-flow: row;
+}
+
+.header_login
+{
+    align-self: flex-end;
+}
+
+li a
+{
+   
+    background-color: #111;
+    transition: background-color 0.6s;
+}
+
+li a:hover {
+     background-color: #222;
+    transition: background-color 0.4s;
+  }
+
+.has-children
+{
+    position: relative;
+}
+
+.has-children:hover > .sub-menu
+{
+    display: flex;
+}
+
+.sub-menu
+{
+    display: none;
+    flex-flow: column wrap;
+    min-width: 100px;
+    position: absolute;
+    background: dodgerblue;
+}
+
+.sub-menu a
+{
+    text-align: left;
+}
+
+.sub-menu .sub-menu
+{
+    top: 0;
+    left: 100%;
+    background: skyblue;
+}
+
+.sub-menu.is-active
+{
+    display: flex!important;
+}
+
+@media screen and (max-width: 600px)
+{
+    nav .menu
+    {
+        flex-flow: column wrap;
+    }
+
+    .sub-menu
+    {
+        position: static;
+    }
+
+    .sub-menu a
+    {
+        text-align: center;
+    }
+}
